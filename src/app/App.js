@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { Switch, Route } from 'react-router';
+import Welcome from './pages/Welcome';
 
-class App extends Component {
-    render() {
-        return (
-            <div className="App">
-                <h1>Hello, World!</h1>
-            </div>
-        );
-    }
-}
+const App = () => {
+    return (
+        <Switch>
+            <Route exact path="/" component={Welcome}/>
+        </Switch>
+    )
+};
 
 export default App;
