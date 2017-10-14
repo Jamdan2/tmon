@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
+import LoginForm from '../components/LoginForm'
 
 const Welcome = () => {
     return (
-        <h1>Welcome!</h1>
+        <div>
+            <LoginForm/>
+        </div>
     );
 };
 
-export default Welcome
+export default Welcome;
