@@ -1,17 +1,18 @@
-import React, { Component } from 'react';
+import React from 'react';
+import "./LoginForm.css"
 
 const LoginForm = (props) => {
     return (
         <div id="loginForm">
             <form onSubmit={props.onSubmit}>
-                <div>
+                <div className="header">
                     <h1>Login</h1>
                 </div>
-                <div>
+                <div className="usernameContainer">
                     <label>Username</label>
                     <input type="text" value={props.username} onChange={props.onUsernameChange}/>
                 </div>
-                <div>
+                <div className="passwordContainer">
                     <label>Password</label>
                     <input type="password" value={props.password} onChange={props.onPasswordChange}/>
                 </div>
