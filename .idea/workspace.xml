@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5570fa22-2cea-46b6-98fd-cad50a99621d" name="Default" comment="clean up directories">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/components/LoginForm.css" afterPath="$PROJECT_DIR$/src/app/components/loginForm/LoginForm.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/components/LoginForm.js" afterPath="$PROJECT_DIR$/src/app/components/loginForm/LoginForm.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/components/LoginFormContainer.js" afterPath="$PROJECT_DIR$/src/app/components/loginForm/LoginFormContainer.js" />
+    <list default="true" id="5570fa22-2cea-46b6-98fd-cad50a99621d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/pages/Welcome.js" afterPath="$PROJECT_DIR$/src/app/pages/Welcome.js" />
     </list>
@@ -36,11 +33,9 @@
       <file leaf-file-name="Welcome.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/pages/Welcome.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -159,11 +154,11 @@
         <option value="$PROJECT_DIR$/src/app/Main.js" />
         <option value="$PROJECT_DIR$/src/app/App.js" />
         <option value="$PROJECT_DIR$/src/app/App.css" />
-        <option value="$PROJECT_DIR$/src/app/pages/Welcome.js" />
         <option value="$PROJECT_DIR$/src/app/components/LoginForm.js" />
         <option value="$PROJECT_DIR$/src/app/components/LoginForm.css" />
         <option value="$PROJECT_DIR$/src/app/components/LoginFormContainer.js" />
         <option value="$PROJECT_DIR$/src/app/components/loginForm/LoginFormContainer.js" />
+        <option value="$PROJECT_DIR$/src/app/pages/Welcome.js" />
       </list>
     </option>
   </component>
@@ -385,7 +380,7 @@
       <workItem from="1508202588575" duration="2733000" />
       <workItem from="1508283355518" duration="625000" />
       <workItem from="1508513707613" duration="2147000" />
-      <workItem from="1508540416603" duration="8835000" />
+      <workItem from="1508540416603" duration="8880000" />
     </task>
     <task id="LOCAL-00001" summary="begin styling login form">
       <created>1508208140718</created>
@@ -408,11 +403,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508565389505</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Clean up directories">
+      <created>1508566072402</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1508566072402</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41927000" />
+    <option name="totallyTimeSpent" value="41972000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -468,7 +470,8 @@
     <MESSAGE value="Add universal css file" />
     <MESSAGE value="Finish styling login form for now" />
     <MESSAGE value="clean up directories" />
-    <option name="LAST_COMMIT_MESSAGE" value="clean up directories" />
+    <MESSAGE value="Clean up directories" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clean up directories" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -507,9 +510,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -569,9 +570,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -634,9 +633,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -712,9 +709,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -873,11 +868,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/pages/Welcome.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
