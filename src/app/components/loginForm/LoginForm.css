@@ -56,6 +56,14 @@
     font-size: 5mm;
 }
 
+#loginForm button:hover {
+    background-color: indigo;
+}
+
+#loginForm button:active {
+    border: solid 2px dodgerblue;
+}
+
 
 
 
