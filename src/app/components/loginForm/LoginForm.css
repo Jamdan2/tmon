@@ -45,7 +45,7 @@
 }
 
 #loginForm button {
-    width: 50%;
+    width: 40%;
     height: 10mm;
     background-color: rebeccapurple;
     color: white;
@@ -54,6 +54,7 @@
     border-radius: 5mm;
     outline: none;
     font-size: 5mm;
+    margin-right: 10%;
 }
 
 #loginForm button:hover {
@@ -64,6 +65,20 @@
     border: solid 2px dodgerblue;
 }
 
+#loginForm #forgotPasswordLink {
+    color: rebeccapurple;
+    size: 5mm;
+    text-align: right;
+    white-space: nowrap;
+}
+
+#loginForm #forgotPasswordLink:hover {
+    color: indigo;
+}
+
+#loginForm #forgotPasswordLink:active {
+    color: dodgerblue;
+}
 
 
 

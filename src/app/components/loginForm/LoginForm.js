@@ -1,5 +1,6 @@
 import React from 'react';
 import "./LoginForm.css"
+import Link from "react-router-dom/es/Link";
 
 const LoginForm = (props) => {
     return (
@@ -17,6 +18,7 @@ const LoginForm = (props) => {
                     </div>
                     <div className="content">
                         <button type="submit">Submit</button>
+                        <Link to="/" id="forgotPasswordLink">Forgot password?</Link>
                     </div>
                 </form>
             </div>
