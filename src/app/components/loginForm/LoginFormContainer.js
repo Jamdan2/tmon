@@ -27,7 +27,6 @@ class LoginFormContainer extends Component {
     }
 
     handleSubmit(event) {
-        this.validate();
         alert("username: " + this.state.username + ", password: " + this.state.password );
         event.preventDefault()
     }
