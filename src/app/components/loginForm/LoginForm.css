@@ -26,60 +26,11 @@
     text-align: center;
 }
 
-#loginForm label {
-    color: dimgray;
-}
-
 #loginForm input {
     width: 100%;
-    height: 10mm;
     box-sizing: border-box;
-
-    border: 1px solid lightgray;
-    border-radius: 3px;
-
-    padding: 3mm;
-
-    font-size: 1em;
-
-    background-color: whitesmoke;
-    outline: none;
-}
-
-#loginForm input:focus {
-    border: 2px solid gray;
-    background-color: white;
-}
-
-#loginForm button {
-    width: auto;
-    height: 10mm;
-
-    border: none;
-    border-radius: 3px;
-
-    padding: 3mm;
-
-    font-size: 1em;
-    color: white;
-
-    background-color: rebeccapurple;
-    outline: none;
-
-    display: inline;
-}
-
-#loginForm button:hover {
-    background-color: indigo;
-}
-
-#loginForm button:active {
-    box-shadow: black;
 }
 
 #loginForm #forgotPasswordLink {
     margin-left: 5mm;
 }
-
-
-

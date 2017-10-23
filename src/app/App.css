@@ -1,7 +1,59 @@
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Helvectiva, Arial, sans-serif;
     padding: 0;
     margin: 0;
     background-color: rebeccapurple;
+}
+
+h1 {
+
+}
+
+label {
+    color: dimgray;
+}
+
+input {
+    width: auto;
+    height: 10mm;
+
+    border: 1px solid lightgray;
+    border-radius: 3px;
+
+    padding: 3mm;
+
+    font-size: 1em;
+
+    background-color: whitesmoke;
+    outline: none;
+}
+
+input:focus {
+    border: 2px solid gray;
+    background-color: white;
+}
+
+button {
+    width: auto;
+    height: 10mm;
+
+    border: none;
+    border-radius: 3px;
+
+    padding: 3mm;
+
+    font-size: 1em;
+    color: white;
+
+    background-color: rebeccapurple;
+    outline: none;
+}
+
+button:hover {
+    background-color: indigo;
+}
+
+button:active {
+    box-shadow: black;
 }
