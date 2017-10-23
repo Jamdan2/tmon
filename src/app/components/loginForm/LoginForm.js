@@ -4,25 +4,25 @@ import Link from "react-router-dom/es/Link";
 
 const LoginForm = (props) => {
     return (
-        <div id="loginForm">
+        <form id="loginForm" onSubmit={props.onSubmit}>
             <div id="container">
-                <form onSubmit={props.onSubmit}>
-                    <div className="content">
-                        <h1>Login</h1>
-                    </div>
-                    <div className="content">
-                        <input type="text" placeholder="Username" value={props.username} onChange={props.onUsernameChange}/>
-                    </div>
-                    <div className="content">
-                        <input type="password" placeholder="Password" value={props.password} onChange={props.onPasswordChange}/>
-                    </div>
-                    <div className="content">
-                        <button type="submit">Submit</button>
-                        <Link to="/" id="forgotPasswordLink">Forgot password?</Link>
-                    </div>
-                </form>
+                <div id="header" className="content">
+                    <h1>Login</h1>
+                </div>
+                <div id="usernameContent" className="content">
+                    <label>Username</label> <br/>
+                    <input type="text" placeholder="Username" spellCheck="false" value={props.username} onChange={props.onUsernameChange}/>
+                </div>
+                <div id="passwordContent" className="content">
+                    <label>Password</label> <br/>
+                    <input type="password" placeholder="Password" value={props.password} onChange={props.onPasswordChange}/>
+                </div>
+                <div id="optionContent" className="content">
+                    <button type="submit">Submit</button>
+                    <Link id="forgotPasswordLink" to="/">Forgot password?</Link>
+                </div>
             </div>
-        </div>
+        </form>
     );
 };
 

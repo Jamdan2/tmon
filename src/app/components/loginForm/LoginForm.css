@@ -1,17 +1,19 @@
 
 #loginForm {
-    background-color: whitesmoke;
     width: 40%;
     max-width: 100mm;
-    min-width: 60mm;
-    margin: 0;
-    padding: 0;
-    border: solid 2px gray;
-    border-radius: 5mm;
+    min-width: 50mm;
+    height: auto;
+
+    border-radius: 3px;
+
+    padding: 5mm;
+
+    background-color: white;
 }
 
-#loginForm #container {
-    padding: 6mm;
+#loginForm #header {
+    border-bottom: 2px solid dimgray;
 }
 
 #loginForm .content {
@@ -19,42 +21,52 @@
 }
 
 #loginForm h1 {
-    color: grey;
-    margin: 0;
-    padding-bottom: 3mm;
-    border-bottom: solid 2px gray;
+    color: dimgray;
+
+    text-align: center;
 }
 
 #loginForm label {
-    color: gray;
+    color: dimgray;
 }
 
 #loginForm input {
     width: 100%;
     height: 10mm;
-    padding: 0 3mm;
     box-sizing: border-box;
-    border: solid 2px gray;
-    border-radius: 7mm;
+
+    border: 1px solid lightgray;
+    border-radius: 3px;
+
+    padding: 3mm;
+
+    font-size: 1em;
+
+    background-color: whitesmoke;
     outline: none;
-    font-size: 5mm;
 }
 
 #loginForm input:focus {
-    border-color: dodgerblue;
+    border: 2px solid gray;
+    background-color: white;
 }
 
 #loginForm button {
-    width: 40%;
+    width: auto;
     height: 10mm;
-    background-color: rebeccapurple;
+
+    border: none;
+    border-radius: 3px;
+
+    padding: 3mm;
+
+    font-size: 1em;
     color: white;
-    border: 0;
-    box-sizing: border-box;
-    border-radius: 5mm;
+
+    background-color: rebeccapurple;
     outline: none;
-    font-size: 5mm;
-    margin-right: 10%;
+
+    display: inline;
 }
 
 #loginForm button:hover {
@@ -62,24 +74,12 @@
 }
 
 #loginForm button:active {
-    border: solid 2px dodgerblue;
+    box-shadow: black;
 }
 
 #loginForm #forgotPasswordLink {
-    color: rebeccapurple;
-    size: 5mm;
-    text-align: right;
-    white-space: nowrap;
+    margin-left: 5mm;
 }
-
-#loginForm #forgotPasswordLink:hover {
-    color: indigo;
-}
-
-#loginForm #forgotPasswordLink:active {
-    color: dodgerblue;
-}
-
 
 
 
