@@ -1,10 +1,10 @@
 import React from 'react';
 import './NavBar.css';
 
-const NavBar = () => {
+const NavBar = (props) => {
     return (
         <div id="navBar">
-
+            {props.children}
         </div>
     )
 };

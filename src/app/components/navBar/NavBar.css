@@ -1,7 +1,37 @@
 
 #navBar {
-    background-color: whitesmoke;
-    width: 100%;
-    height: 20mm;
-    border-bottom: solid gray 2px;
+    margin: 0;
+    padding: 0;
+}
+
+#navBar ul {
+    margin: 0;
+
+    padding: 0;
+
+    background-color: white;
+
+    list-style-type: none;
+    overflow: hidden;
+}
+
+#navBar ul li {
+    float: right;
+}
+
+#navBar ul li .navLink {
+    height: 10mm;
+
+    border-radius: 3px;
+
+    margin: 5mm;
+
+    padding: 3mm;
+
+    background-color: rebeccapurple;
+
+    color: white;
+    text-decoration: none;
+
+    display: block;
 }
