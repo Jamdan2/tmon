@@ -6,14 +6,8 @@ const Welcome = () => {
     return (
         <div>
             <NavBarContainer>
-                <ul>
-                    <li>
-                        <Link to="/" className="navLink">Heyyyy</Link>
-                    </li>
-                    <li>
-                        <Link to="/" className="navLink">Budddddyyy</Link>
-                    </li>
-                </ul>
+                <Link to="/" className="navLink">Heyyyy</Link>
+                <Link to="/" className="navLink">Budddddyyy</Link>
             </NavBarContainer>
         </div>
     );

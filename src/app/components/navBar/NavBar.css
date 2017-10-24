@@ -1,11 +1,6 @@
 
 #navBar {
     margin: 0;
-    padding: 0;
-}
-
-#navBar ul {
-    margin: 0;
 
     padding: 0;
 
@@ -15,11 +10,11 @@
     overflow: hidden;
 }
 
-#navBar ul li {
+#navBar li {
     float: right;
 }
 
-#navBar ul li .navLink {
+#navBar .navLink {
     height: 10mm;
 
     border-radius: 3px;
