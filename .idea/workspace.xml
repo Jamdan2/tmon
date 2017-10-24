@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5570fa22-2cea-46b6-98fd-cad50a99621d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/components/navBar/NavBarContainer.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/components/header/Header.css" afterPath="$PROJECT_DIR$/src/app/components/header/WelcomeHeader.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/components/header/Header.js" afterPath="$PROJECT_DIR$/src/app/components/header/WelcomeHeader.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/pages/Welcome.js" afterPath="$PROJECT_DIR$/src/app/pages/Welcome.js" />
     </list>
@@ -22,8 +23,8 @@
       <file leaf-file-name="Welcome.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/pages/Welcome.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="720">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -217,6 +218,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="header" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tmon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tmon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="navBar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -388,7 +397,7 @@
       <workItem from="1508802498198" duration="5193000" />
       <workItem from="1508816201051" duration="509000" />
       <workItem from="1508817157606" duration="273000" />
-      <workItem from="1508859273065" duration="1558000" />
+      <workItem from="1508859273065" duration="1802000" />
     </task>
     <task id="LOCAL-00001" summary="begin styling login form">
       <created>1508208140718</created>
@@ -509,11 +518,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508860709446</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Get rid of useless NavBar container">
+      <created>1508860861213</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1508860861213</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73077000" />
+    <option name="totallyTimeSpent" value="73321000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -612,7 +628,8 @@
     <MESSAGE value="Fix naming mistake" />
     <MESSAGE value="Make specialized NavLinks for NavBar" />
     <MESSAGE value="Clear welcome page of impurities" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clear welcome page of impurities" />
+    <MESSAGE value="Get rid of useless NavBar container" />
+    <option name="LAST_COMMIT_MESSAGE" value="Get rid of useless NavBar container" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -860,7 +877,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/components/header/Header.js">
+    <entry file="file://$PROJECT_DIR$/src/app/components/header/WelcomeHeader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
@@ -887,7 +904,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/components/header/Header.css">
+    <entry file="file://$PROJECT_DIR$/src/app/components/header/WelcomeHeader.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -968,8 +985,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/pages/Welcome.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="720">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
