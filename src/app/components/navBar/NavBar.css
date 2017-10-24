@@ -1,5 +1,8 @@
 
 #navBar {
+    width: 100%;
+    height: auto;
+
     margin: 0;
 
     padding: 0;
@@ -14,6 +17,15 @@
     float: right;
 }
 
-#navBar .navLink {
+#navBar #navLink button {
+    background-color: whitesmoke;
+
+    color: dimgray;
     margin: 5mm 5mm 5mm 0;
+}
+
+#navBar #navLink button:hover {
+    background-color: lightgray;
+
+    color: dimgray;
 }
