@@ -1,14 +1,14 @@
 import React from 'react';
-import NavBarContainer from "../components/navBar/NavBarContainer";
 import NavLink from "../components/navBar/NavLink";
+import NavBar from "../components/navBar/NavBar";
 
 const Welcome = () => {
     return (
         <div id="welcomePage">
-            <NavBarContainer>
+            <NavBar>
                 <NavLink className="navLink" to="/">Sign Up</NavLink>
                 <NavLink className="navLink" to="/">Login</NavLink>
-            </NavBarContainer>
+            </NavBar>
         </div>
     );
 };

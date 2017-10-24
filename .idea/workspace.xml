@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5570fa22-2cea-46b6-98fd-cad50a99621d" name="Default" comment="Make specialized NavLinks for NavBar">
+    <list default="true" id="5570fa22-2cea-46b6-98fd-cad50a99621d" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/components/navBar/NavBarContainer.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/App.css" afterPath="$PROJECT_DIR$/src/app/App.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/navBar/NavBar.css" afterPath="$PROJECT_DIR$/src/app/components/navBar/NavBar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/navBar/NavLink.js" afterPath="$PROJECT_DIR$/src/app/components/navBar/NavLink.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/pages/Welcome.js" afterPath="$PROJECT_DIR$/src/app/pages/Welcome.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,8 +22,8 @@
       <file leaf-file-name="Welcome.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/pages/Welcome.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="8" column="69" lean-forward="true" selection-start-line="8" selection-start-column="69" selection-end-line="8" selection-end-column="69" />
+            <state relative-caret-position="640">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -36,8 +34,8 @@
       <file leaf-file-name="NavBar.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/components/navBar/NavBar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="640">
+              <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
               <folding>
                 <marker date="1508817028459" expanded="true" signature="7:12" ph="..." />
               </folding>
@@ -93,18 +91,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NavBarContainer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/components/navBar/NavBarContainer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-              <folding>
-                <marker date="1508817028459" expanded="true" signature="7:25" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -155,11 +141,11 @@
         <option value="$PROJECT_DIR$/src/app/components/loginForm/LoginForm.css" />
         <option value="$PROJECT_DIR$/src/app/components/navBar/NavBar.js" />
         <option value="$PROJECT_DIR$/src/app/components/navBar/navBarContainer.js" />
-        <option value="$PROJECT_DIR$/src/app/components/navBar/NavBarContainer.js" />
         <option value="$PROJECT_DIR$/src/app/components/navBar/ButtonLink.js" />
         <option value="$PROJECT_DIR$/src/app/components/navBar/NavLink.js" />
         <option value="$PROJECT_DIR$/src/app/components/navBar/NavBar.css" />
         <option value="$PROJECT_DIR$/src/app/App.css" />
+        <option value="$PROJECT_DIR$/src/app/components/navBar/NavBarContainer.js" />
         <option value="$PROJECT_DIR$/src/app/pages/Welcome.js" />
       </list>
     </option>
@@ -402,7 +388,7 @@
       <workItem from="1508802498198" duration="5193000" />
       <workItem from="1508816201051" duration="509000" />
       <workItem from="1508817157606" duration="273000" />
-      <workItem from="1508859273065" duration="1389000" />
+      <workItem from="1508859273065" duration="1558000" />
     </task>
     <task id="LOCAL-00001" summary="begin styling login form">
       <created>1508208140718</created>
@@ -516,11 +502,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508805146671</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Clear welcome page of impurities">
+      <created>1508860709446</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1508860709446</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72908000" />
+    <option name="totallyTimeSpent" value="73077000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -618,7 +611,8 @@
     <MESSAGE value="Vertical align text in NavBar links" />
     <MESSAGE value="Fix naming mistake" />
     <MESSAGE value="Make specialized NavLinks for NavBar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Make specialized NavLinks for NavBar" />
+    <MESSAGE value="Clear welcome page of impurities" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clear welcome page of impurities" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -914,26 +908,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/components/navBar/NavBarContainer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding>
-            <marker date="1508817028459" expanded="true" signature="7:25" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1261">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <marker date="1508860608453" expanded="true" signature="6:25" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/components/loginForm/LoginForm.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -954,16 +928,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/components/navBar/NavBar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <marker date="1508817028459" expanded="true" signature="7:12" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/components/navBar/NavBar.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="560">
@@ -974,10 +938,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/navBar/NavBarContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1261">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <marker date="1508860608453" expanded="true" signature="6:25" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/navBar/NavBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <marker date="1508817028459" expanded="true" signature="7:12" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/pages/Welcome.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="8" column="69" lean-forward="true" selection-start-line="8" selection-start-column="69" selection-end-line="8" selection-end-column="69" />
+        <state relative-caret-position="640">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
