@@ -15,20 +15,5 @@
 }
 
 #navBar .navLink {
-    height: 10mm;
-
-    border-radius: 3px;
-
-    margin: 5mm;
-
-    padding: 0 3mm;
-
-    background-color: rebeccapurple;
-
-    color: white;
-    text-decoration: none;
-
-    display: block;
-
-    line-height: 10mm;
+    margin: 5mm 5mm 5mm 0;
 }

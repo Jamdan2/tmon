@@ -1,14 +1,14 @@
 import React from 'react';
 import NavBarContainer from "../components/navBar/NavBarContainer";
-import Link from "react-router-dom/es/Link";
 import LoginFormContainer from "../components/loginForm/LoginFormContainer";
+import NavLink from "../components/navBar/NavLink";
 
 const Welcome = () => {
     return (
-        <div>
+        <div id="welcomePage">
             <NavBarContainer>
-                <Link to="/" className="navLink">Heyyyy</Link>
-                <Link to="/" className="navLink">Budddddyyy</Link>
+                <NavLink className="navLink" to="/">Hello</NavLink>
+                <NavLink className="navLink" to="/">World</NavLink>
             </NavBarContainer>
             <LoginFormContainer/>
         </div>
