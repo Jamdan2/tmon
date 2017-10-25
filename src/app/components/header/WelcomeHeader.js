@@ -3,8 +3,8 @@ import './WelcomeHeader.css'
 
 const Header = (props) => {
     return (
-        <div id="header">
-            {props.children}
+        <div id="welcomeHeader">
+            <h1>Hello</h1>
         </div>
     )
 };

@@ -15,13 +15,14 @@
 
 #navBar li {
     float: right;
+    margin: 5mm 5mm 5mm 0;
 }
 
 #navBar #navLink button {
     background-color: whitesmoke;
 
     color: dimgray;
-    margin: 5mm 5mm 5mm 0;
+
 }
 
 #navBar #navLink button:hover {

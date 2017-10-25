@@ -1,0 +1,23 @@
+
+#welcomeHeader {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    background-color: rebeccapurple;
+
+}
+
+#welcomeHeader h1 {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+
+
