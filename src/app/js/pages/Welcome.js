@@ -1,7 +1,7 @@
 import React from 'react';
-import NavLink from "../components/navBar/NavLink";
-import NavBar from "../components/navBar/NavBar";
-import WelcomeHeader from "../components/header/WelcomeHeader";
+import NavLink from "../components/presentational/ButtonLink";
+import NavBar from "../components/presentational/NavBar";
+import WelcomeHeader from "../components/presentational/WelcomeHeader";
 
 const Welcome = () => {
     return (

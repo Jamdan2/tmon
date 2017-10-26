@@ -1,7 +1,7 @@
 import React from 'react';
 import { Switch, Route } from 'react-router';
 import Welcome from './pages/Welcome';
-import './App.css';
+import '../scss/App.css';
 
 const App = () => {
     return (

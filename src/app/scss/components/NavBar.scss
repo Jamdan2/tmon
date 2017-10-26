@@ -1,0 +1,30 @@
+@import "../../scss/vars.scss";
+#navBar {
+  background: whitesmoke;
+  width: 100%;
+  height: 20mm;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  overflow: hidden;
+
+  .childContainer{
+    @include vertical-align();
+    float: right;
+
+    #buttonLink {
+      margin: 0 5mm 0 0;
+      button {
+        background-color: whitesmoke;
+        color: dimgray;
+      }
+
+      button:hover {
+        background-color: lightgray;
+        color: dimgray;
+      }
+    }
+  }
+
+}
+
