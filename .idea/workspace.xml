@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5570fa22-2cea-46b6-98fd-cad50a99621d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/vars.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/components/header/WelcomeHeader.css" afterPath="$PROJECT_DIR$/src/app/components/header/WelcomeHeader.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/App.css" afterPath="$PROJECT_DIR$/src/app/App.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/App.scss" afterPath="$PROJECT_DIR$/src/app/App.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/header/WelcomeHeader.js" afterPath="$PROJECT_DIR$/src/app/components/header/WelcomeHeader.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/pages/Welcome.js" afterPath="$PROJECT_DIR$/src/app/pages/Welcome.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/header/WelcomeHeader.css" afterPath="$PROJECT_DIR$/src/app/components/header/WelcomeHeader.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/header/WelcomeHeader.scss" afterPath="$PROJECT_DIR$/src/app/components/header/WelcomeHeader.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WelcomeHeader.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="WelcomeHeader.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/components/header/WelcomeHeader.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+            <state relative-caret-position="560">
+              <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -80,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="App.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/App.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="160">
+              <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -151,8 +146,8 @@
         <option value="$PROJECT_DIR$/src/app/Variables.scss" />
         <option value="$PROJECT_DIR$/src/app/pages/Welcome.js" />
         <option value="$PROJECT_DIR$/src/app/components/header/WelcomeHeader.js" />
-        <option value="$PROJECT_DIR$/src/app/components/header/WelcomeHeader.scss" />
         <option value="$PROJECT_DIR$/src/app/App.scss" />
+        <option value="$PROJECT_DIR$/src/app/components/header/WelcomeHeader.scss" />
       </list>
     </option>
   </component>
@@ -226,15 +221,6 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="header" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tmon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tmon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="header" type="462c0819:PsiDirectoryNode" />
-              <item name="WelcomeHeader.scss" type="620a8d5e:NestingTreeNode" />
             </path>
             <path>
               <item name="tmon" type="b2602c69:ProjectViewProjectNode" />
@@ -409,7 +395,7 @@
       <workItem from="1508947323954" duration="3602000" />
       <workItem from="1508960515250" duration="895000" />
       <workItem from="1508971260683" duration="6276000" />
-      <workItem from="1509032028342" duration="3731000" />
+      <workItem from="1509032028342" duration="4205000" />
     </task>
     <task id="LOCAL-00001" summary="begin styling login form">
       <created>1508208140718</created>
@@ -572,11 +558,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508975311034</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Make header look nice">
+      <created>1509035791334</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1509035791334</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95166000" />
+    <option name="totallyTimeSpent" value="95640000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -652,7 +645,8 @@
     <MESSAGE value="Convert universal stylesheet to sass" />
     <MESSAGE value="Add vertical-align mixin" />
     <MESSAGE value="Git ignore css files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Git ignore css files" />
+    <MESSAGE value="Make header look nice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make header look nice" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -912,6 +906,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -919,21 +914,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/components/header/WelcomeHeader.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/vars.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -968,18 +948,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/components/header/WelcomeHeader.scss">
+    <entry file="file://$PROJECT_DIR$/src/app/App.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        <state relative-caret-position="160">
+          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/App.scss">
+    <entry file="file://$PROJECT_DIR$/src/app/vars.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="360">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/header/WelcomeHeader.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/header/WelcomeHeader.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
           <folding />
         </state>
       </provider>
