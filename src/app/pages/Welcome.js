@@ -10,7 +10,7 @@ const Welcome = () => {
                 <NavLink to="/">Sign Up</NavLink>
                 <NavLink to="/">Login</NavLink>
             </NavBar>
-            <WelcomeHeader text="T M O N" subtext="Simple yet powerful tool for managing your team."/>
+            <WelcomeHeader title="TMON" subtitle="Simple yet powerful tool for managing your team."/>
         </div>
     );
 };

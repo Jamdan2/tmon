@@ -1,0 +1,9 @@
+//Variables and mixins
+
+$font-stack: Helvectiva, sans-serif;
+
+@mixin vertical-align($position: relative) {
+  position: $position;
+  top: 50%;
+  transform: translateY(-50%);
+}

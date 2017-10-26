@@ -1,12 +1,15 @@
-/*
-Universal stylesheet
- */
 body {
   padding: 0;
   margin: 0; }
 
-text, h1 {
+text, h1, h2 {
   font-family: Helvectiva, sans-serif; }
+
+h1 {
+  font-weight: 100; }
+
+h2 {
+  font-weight: 400; }
 
 label {
   color: dimgray; }

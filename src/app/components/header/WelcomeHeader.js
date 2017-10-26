@@ -4,7 +4,14 @@ import './WelcomeHeader.css'
 const Header = (props) => {
     return (
         <div id="welcomeHeader">
-            <h1>Hello</h1>
+            <div className="textContainer">
+                <div className="title">
+                    <h1>{props.title}</h1>
+                </div>
+                <div className="subtitle">
+                    <h2>{props.subtitle}</h2>
+                </div>
+            </div>
         </div>
     )
 };

@@ -1,23 +1,23 @@
-
 #welcomeHeader {
-    width: 100%;
-    height: 50%;
-    position: absolute;
-    background-color: rebeccapurple;
-
-}
-
-#welcomeHeader h1 {
+  width: 100%;
+  height: 75%;
+  background-color: rebeccapurple;
+  position: absolute; }
+  #welcomeHeader .textContainer {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-    padding: 0;
-    margin: 0;
-}
-
-
-
-
-
-
-
+    margin: auto;
+    border: solid transparent 1px;
+    text-align: center; }
+    #welcomeHeader .textContainer .title {
+      color: white;
+      font-size: 3em;
+      letter-spacing: .5em;
+      font-weight: 100;
+      margin: 0;
+      padding: 0;
+      line-height: 0; }
+    #welcomeHeader .textContainer .subtitle {
+      color: white;
+      size: 2em; }

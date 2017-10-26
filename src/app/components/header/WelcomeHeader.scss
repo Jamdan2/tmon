@@ -1,0 +1,38 @@
+@import "../../vars.scss";
+
+#welcomeHeader {
+  width: 100%;
+  height: 75%;
+  background-color: rebeccapurple;
+  position: absolute;
+
+  .textContainer {
+    @include vertical-align();
+    margin: auto;
+    border: solid rgba(0, 0, 0, 0) 1px;
+    text-align: center;
+
+    .title {
+      color: white;
+      font-size: 3em;
+      letter-spacing: .5em;
+      font-weight: 100;
+      margin: 0;
+      padding: 0;
+      line-height: 0;
+    }
+
+    .subtitle {
+      color: white;
+      size: 2em;
+    }
+  }
+}
+
+
+
+
+
+
+
+

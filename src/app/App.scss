@@ -1,18 +1,6 @@
-/*
-Universal stylesheet
- */
+//Universal stylesheet
 
-//Variables and mixins
-
-$font-stack: Helvectiva, sans-serif;
-
-@mixin vertical-align($position: relative) {
-  position: $position;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-//Rules
+@import "./vars.scss";
 
 body {
   padding: 0;
@@ -24,7 +12,13 @@ text {
 }
 
 h1 {
-  @extend text
+  @extend text;
+  font-weight: 100;
+}
+
+h2 {
+  @extend text;
+  font-weight: 400;
 }
 
 label {
