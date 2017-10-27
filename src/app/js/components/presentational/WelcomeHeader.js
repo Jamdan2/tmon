@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../../scss/components/WelcomeHeader.css'
 
-const Header = (props) => {
+const WelcomeHeader = (props) => {
     return (
         <div id="welcomeHeader">
             <div className="textContainer">
@@ -16,4 +16,4 @@ const Header = (props) => {
     )
 };
 
-export default Header;
+export default WelcomeHeader;
