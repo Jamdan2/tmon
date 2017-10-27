@@ -1,36 +1,29 @@
 
 #loginForm {
-    width: 40%;
-    max-width: 100mm;
-    min-width: 50mm;
-    height: auto;
+  background-color: white;
+  width: 40%;
+  max-width: 100mm;
+  min-width: 50mm;
+  height: auto;
+  padding: 5mm;
+  border-radius: 3px;
 
-    border-radius: 3px;
-
-    padding: 5mm;
-
-    background-color: white;
-}
-
-#loginForm #header {
-    border-bottom: 2px solid dimgray;
-}
-
-#loginForm .content {
+  .content {
     margin: 3mm 0;
+
+    input {
+      width: 100%;
+      box-sizing: border-box;
+    }
+  }
+
+  .headerContent {
+    border-bottom: 2px solid dimgray;
+
+    h1 {
+      color: dimgray;
+      text-align: center;
+    }
+  }
 }
 
-#loginForm h1 {
-    color: dimgray;
-
-    text-align: center;
-}
-
-#loginForm input {
-    width: 100%;
-    box-sizing: border-box;
-}
-
-#loginForm #forgotPasswordLink {
-    margin-left: 5mm;
-}

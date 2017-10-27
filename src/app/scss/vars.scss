@@ -1,6 +1,7 @@
 //Variables and mixins
 
 $font-stack: Helvectiva, sans-serif;
+$navbar-height: 20mm;
 
 @mixin vertical-align($position: relative) {
   position: $position;

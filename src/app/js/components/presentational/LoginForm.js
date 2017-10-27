@@ -6,20 +6,20 @@ const LoginForm = (props) => {
     return (
         <form id="loginForm" onSubmit={props.onSubmit}>
             <div id="container">
-                <div id="header" className="content">
+                <div className="headerContainer content">
                     <h1>Login</h1>
                 </div>
-                <div id="usernameContent" className="content">
+                <div className="usernameContainer content">
                     <label>Username</label> <br/>
                     <input type="text" placeholder="Username" spellCheck="false" value={props.username} onChange={props.onUsernameChange}/>
                 </div>
-                <div id="passwordContent" className="content">
+                <div className="passwordContainer content">
                     <label>Password</label> <br/>
                     <input type="password" placeholder="Password" value={props.password} onChange={props.onPasswordChange}/>
                 </div>
-                <div id="optionContent" className="content">
+                <div className="optionsContainer content">
                     <button type="submit">Submit</button>
-                    <Link id="forgotPasswordLink" to="/">Forgot password?</Link>
+                    <Link className="forgotPasswordLink" to="/">Forgot password?</Link>
                 </div>
             </div>
         </form>
