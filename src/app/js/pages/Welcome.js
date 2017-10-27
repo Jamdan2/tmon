@@ -1,15 +1,11 @@
 import React from 'react';
-import NavLink from "../components/presentational/ButtonLink";
-import NavBar from "../components/presentational/NavBar";
 import WelcomeHeader from "../components/presentational/WelcomeHeader";
+import WelcomeNavBar from "../components/presentational/WelcomeNavBar";
 
 const Welcome = () => {
     return (
         <div id="welcomePage">
-            <NavBar>
-                <NavLink to="/">Sign Up</NavLink>
-                <NavLink to="/login">Login</NavLink>
-            </NavBar>
+            <WelcomeNavBar/>
             <WelcomeHeader title="TMON" subtitle="Simple yet powerful tool for managing your team."/>
         </div>
     );
