@@ -8,7 +8,7 @@ const Welcome = () => {
         <div id="welcomePage">
             <NavBar>
                 <NavLink to="/">Sign Up</NavLink>
-                <NavLink to="/">Login</NavLink>
+                <NavLink to="/login">Login</NavLink>
             </NavBar>
             <WelcomeHeader title="TMON" subtitle="Simple yet powerful tool for managing your team."/>
         </div>

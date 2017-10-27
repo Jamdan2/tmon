@@ -5,6 +5,7 @@
   height: calc(100% - #{$navbar-height});
   background: linear-gradient(rebeccapurple, cornflowerblue);
   position: absolute;
+  overflow: hidden;
 
   .textContainer {
     @include vertical-align();

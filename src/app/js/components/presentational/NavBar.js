@@ -1,4 +1,4 @@
-import React, { Children } from 'react';
+import React from 'react';
 import '../../../scss/components/NavBar.css';
 
 const NavBar = (props) => {

@@ -1,6 +1,5 @@
 import React from 'react';
 import Link from "react-router-dom/es/Link";
-import '../../../scss/components/ButtonLink.css';
 
 const NavLink = (props) => {
     return (
