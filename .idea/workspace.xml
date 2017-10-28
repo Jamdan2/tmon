@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5570fa22-2cea-46b6-98fd-cad50a99621d" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/js/components/presentational/WelcomeNavBar.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/js/components/presentational/LoginForm.js" afterPath="$PROJECT_DIR$/src/app/js/components/presentational/LoginForm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/js/pages/LoginPage.js" afterPath="$PROJECT_DIR$/src/app/js/pages/LoginPage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/scss/components/LoginForm.scss" afterPath="$PROJECT_DIR$/src/app/scss/components/LoginForm.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/js/pages/Welcome.js" afterPath="$PROJECT_DIR$/src/app/js/pages/Welcome.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/scss/components/NavBar.scss" afterPath="$PROJECT_DIR$/src/app/scss/components/NavBar.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/scss/components/WelcomeHeader.scss" afterPath="$PROJECT_DIR$/src/app/scss/components/WelcomeHeader.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,7 +24,7 @@
       <file leaf-file-name="WelcomeHeader.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/js/components/presentational/WelcomeHeader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
+            <state relative-caret-position="720">
               <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -33,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginForm.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/js/components/presentational/LoginForm.js">
+      <file leaf-file-name="NavBar.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/js/components/presentational/NavBar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="480">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -45,55 +45,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginForm.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/scss/components/LoginForm.scss">
+      <file leaf-file-name="NavBar.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/scss/components/NavBar.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginPage.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/js/pages/LoginPage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ButtonLink.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/js/components/presentational/ButtonLink.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WelcomeHeader.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/app/scss/components/WelcomeHeader.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Welcome.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Welcome.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/js/pages/Welcome.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="600">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -124,7 +90,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="redo" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
   </component>
@@ -173,18 +139,18 @@
         <option value="$PROJECT_DIR$/src/app/scss/components/NavLink.scss" />
         <option value="$PROJECT_DIR$/src/app/js/components/presentational/NavLink.js" />
         <option value="$PROJECT_DIR$/src/app/scss/vars.scss" />
-        <option value="$PROJECT_DIR$/src/app/scss/components/NavBar.scss" />
         <option value="$PROJECT_DIR$/src/app/scss/components/ButtonLink.scss" />
         <option value="$PROJECT_DIR$/src/app/js/components/presentational/NavBar.js" />
         <option value="$PROJECT_DIR$/src/app/js/components/presentational/ButtonLink.js" />
         <option value="$PROJECT_DIR$/src/app/js/components/presentational/WelcomeNavBar.js" />
         <option value="$PROJECT_DIR$/src/app/js/App.js" />
-        <option value="$PROJECT_DIR$/src/app/js/pages/Welcome.js" />
         <option value="$PROJECT_DIR$/src/app/js/components/presentational/WelcomeHeader.js" />
         <option value="$PROJECT_DIR$/src/app/js/pages/LoginPage.js" />
         <option value="$PROJECT_DIR$/src/app/js/components/presentational/LoginForm.js" />
         <option value="$PROJECT_DIR$/src/app/scss/components/LoginForm.scss" />
         <option value="$PROJECT_DIR$/src/app/scss/components/WelcomeHeader.scss" />
+        <option value="$PROJECT_DIR$/src/app/scss/components/NavBar.scss" />
+        <option value="$PROJECT_DIR$/src/app/js/pages/Welcome.js" />
       </list>
     </option>
   </component>
@@ -197,7 +163,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="122" />
     <option name="y" value="-22" />
     <option name="width" value="2107" />
@@ -293,15 +259,6 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="scss" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tmon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tmon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="LoginForm.scss" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
@@ -475,7 +432,7 @@
       <workItem from="1509075206959" duration="421000" />
       <workItem from="1509117199560" duration="4318000" />
       <workItem from="1509122200329" duration="2119000" />
-      <workItem from="1509227375161" duration="418000" />
+      <workItem from="1509227375161" duration="2161000" />
     </task>
     <task id="LOCAL-00001" summary="begin styling login form">
       <created>1508208140718</created>
@@ -687,11 +644,25 @@
       <option name="project" value="LOCAL" />
       <updated>1509121210481</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Make room for legal stuff">
+      <created>1509227815406</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1509227815406</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Make buttons in the navbar be gray">
+      <created>1509229255720</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1509229255720</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109660000" />
+    <option name="totallyTimeSpent" value="111403000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -703,7 +674,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-16" y="-16" width="3872" height="2192" extended-state="6" />
+    <frame x="0" y="0" width="3840" height="2160" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -711,14 +682,14 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30988896" sideWeight="0.44759357" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30988896" sideWeight="0.44759357" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30988896" sideWeight="0.55240643" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30988896" sideWeight="0.55240643" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28421053" sideWeight="0.49679145" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2825" sideWeight="0.57192516" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19839573" sideWeight="0.49666667" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18903743" sideWeight="0.49666667" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -772,8 +743,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
-    <MESSAGE value="Add navbar" />
-    <MESSAGE value="Add header" />
     <MESSAGE value="Redo login form" />
     <MESSAGE value="Add styles from login form to universal stylesheet" />
     <MESSAGE value="Make progress on navBar" />
@@ -797,7 +766,9 @@
     <MESSAGE value="Set up login page" />
     <MESSAGE value="Use new WelcomeNavBar in Welcome" />
     <MESSAGE value="Fix WelcomeHeader's name" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix WelcomeHeader's name" />
+    <MESSAGE value="Make room for legal stuff" />
+    <MESSAGE value="Make buttons in the navbar be gray" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make buttons in the navbar be gray" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1008,21 +979,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/scss/components/ButtonLink.scss" />
-    <entry file="file://$PROJECT_DIR$/src/app/js/components/presentational/NavBar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/scss/components/ButtonLink.css" />
-    <entry file="file://$PROJECT_DIR$/src/app/scss/components/NavBar.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/scss/App.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -1034,29 +991,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="560">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/js/components/presentational/WelcomeNavBar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/js/pages/Welcome.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/scss/components/WelcomeHeader.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/js/components/presentational/ButtonLink.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
+        <state relative-caret-position="480">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -1064,20 +1015,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/js/components/presentational/WelcomeHeader.js">
+    <entry file="file://$PROJECT_DIR$/src/app/js/pages/LoginPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/js/components/presentational/LoginForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="400">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -1092,21 +1033,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/js/pages/LoginPage.js">
+    <entry file="file://$PROJECT_DIR$/src/app/js/components/presentational/LoginForm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="1080">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/scss/components/WelcomeHeader.scss">
+    <entry file="file://$PROJECT_DIR$/src/app/scss/components/NavBar.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="360">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/js/components/presentational/WelcomeNavBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/js/components/presentational/WelcomeHeader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="18" column="29" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/js/components/presentational/NavBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/js/pages/Welcome.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
