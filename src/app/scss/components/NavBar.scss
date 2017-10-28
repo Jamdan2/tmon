@@ -14,19 +14,23 @@
 
     button {
       margin: 0 5mm 0 0;
-      button {
-        background-color: whitesmoke;
-        color: dimgray;
-      }
+      background-color: whitesmoke;
+      color: dimgray;
+    }
 
-      button:hover {
-        background-color: lightgray;
-        color: dimgray;
-      }
+    button:hover {
+      background-color: lightgray;
+      color: dimgray;
     }
 
     #buttonLink {
-      @extend button
+      button {
+        @extend button;
+      }
+
+      button:hover {
+        @extend button:hover;
+      }
     }
   }
 }
