@@ -2,7 +2,7 @@
 
 #welcomeHeader {
   width: 100%;
-  height: calc(100% - #{$navbar-height});
+  height: calc(75% - #{$navbar-height});
   background: linear-gradient(rebeccapurple, cornflowerblue);
   position: absolute;
   overflow: hidden;

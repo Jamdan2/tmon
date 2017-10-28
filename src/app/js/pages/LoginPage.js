@@ -1,14 +1,10 @@
 import React from 'react';
-import WelcomeNavBar from "../components/presentational/WelcomeNavBar";
-import Header from "../components/presentational/WelcomeHeader";
+import LoginFormContainer from "../components/functional/LoginFormContainer";
 
 const LoginPage = () => {
     return(
         <div id="loginPage">
-            <WelcomeNavBar/>
-            <Header>
-
-            </Header>
+            <LoginFormContainer/>
         </div>
     );
 };

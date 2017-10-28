@@ -1,5 +1,5 @@
 import React from 'react';
-import "../../../scss/components/LoginForm.scss"
+import "../../../scss/components/LoginForm.css"
 import Link from "react-router-dom/es/Link";
 
 const LoginForm = (props) => {
