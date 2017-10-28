@@ -12,7 +12,7 @@
     @include vertical-align();
     float: right;
 
-    #buttonLink {
+    button {
       margin: 0 5mm 0 0;
       button {
         background-color: whitesmoke;
@@ -24,7 +24,10 @@
         color: dimgray;
       }
     }
+    
+    #buttonLink {
+      @extend button
+    }
   }
-
 }
 
