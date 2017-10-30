@@ -1,0 +1,28 @@
+
+#loginForm {
+  background: white;
+  width: 125mm;
+  max-width: 75%;
+  height: auto;
+  padding: 5mm;
+
+  form {
+    .content {
+      margin: 3mm 0;
+    }
+
+    .headerContent {
+      border-bottom: 1px solid dimgray;
+
+      h1 {
+        text-align: center;
+        color: dimgray;
+      }
+    }
+
+    input {
+      width: 100%;
+      box-sizing: border-box;
+    }
+  }
+}

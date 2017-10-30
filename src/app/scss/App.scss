@@ -5,6 +5,7 @@
 body {
   padding: 0;
   margin: 0;
+  background-color: rebeccapurple;
 }
 
 text {
@@ -22,6 +23,7 @@ h2 {
 }
 
 label {
+  @extend text;
   color: dimgray;
 }
 
@@ -37,7 +39,7 @@ input {
 }
 
 input:focus {
-  border: 2px solid gray;
+  border: 1px solid gray;
   background-color: white;
 }
 

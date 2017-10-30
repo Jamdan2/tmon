@@ -1,29 +1,32 @@
 import React from 'react';
-import "../../../scss/components/LoginForm.css"
-import Link from "react-router-dom/es/Link";
+import '../../../scss/components/Form.css'
+import {Form, Text} from 'react-form'
 
-const LoginForm = (props) => {
+const LoginForm = () => {
     return (
-        <form id="loginForm" onSubmit={props.onSubmit}>
-            <div id="container">
-                <div className="headerContainer content">
-                    <h1>Login</h1>
-                </div>
-                <div className="usernameContainer content">
-                    <label>Username</label> <br/>
-                    <input type="text" placeholder="Username" spellCheck="false" value={props.username} onChange={props.onUsernameChange}/>
-                </div>
-                <div className="passwordContainer content">
-                    <label>Password</label> <br/>
-                    <input type="password" placeholder="Password" value={props.password} onChange={props.onPasswordChange}/>
-                </div>
-                <div className="optionsContainer content">
-                    <button type="submit">Submit</button>
-                    <Link className="forgotPasswordLink" to="/">Forgot password?</Link>
-                </div>
-            </div>
-        </form>
+        <div id="loginForm">
+            <Form>
+                { formApi => {
+                    return (
+                        <form onSubmit={formApi.submitForm}>
+                            <div className="content headerContent">
+                                <h1>Login</h1>
+                            </div>
+                            <div className="content">
+                                <label htmlFor="username">Username</label>
+                                <Text field="username"/>
+                            </div>
+                            <div className="content">
+                                <label htmlFor="password">Password</label>
+                                <Text type="password" field="password"/>
+                            </div>
+                        </form>
+                    );
+                }}
+            </Form>
+        </div>
     );
+
 };
 
 export default LoginForm;
