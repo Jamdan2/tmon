@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../../scss/components/Form.css'
+import '../../scss/components/Form.css'
 import {Form, Text} from 'react-form'
 
 const LoginForm = () => {
@@ -9,7 +9,7 @@ const LoginForm = () => {
                 { formApi => {
                     return (
                         <form onSubmit={formApi.submitForm}>
-                            <div className="content headerContent">
+                            <div className="header">
                                 <h1>Login</h1>
                             </div>
                             <div className="content">
@@ -19,6 +19,9 @@ const LoginForm = () => {
                             <div className="content">
                                 <label htmlFor="password">Password</label>
                                 <Text type="password" field="password"/>
+                            </div>
+                            <div className="content">
+                                <button type="submit">Submit</button>
                             </div>
                         </form>
                     );

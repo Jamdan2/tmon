@@ -1,7 +1,7 @@
 import React from 'react';
-import WelcomeHeader from "../components/presentational/WelcomeHeader";
-import NavBar from "../components/presentational/NavBar";
-import LoginForm from "../components/presentational/LoginForm";
+import WelcomeHeader from "../components/WelcomeHeader";
+import NavBar from "../components/NavBar";
+import LoginForm from "../components/LoginForm";
 
 const WelcomePage = () => {
     return (

@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from "react-router-dom/es/Link";
 
-const NavLink = (props) => {
+const ButtonLink = (props) => {
     return (
         <Link id="buttonLink" to={props.to}>
             <button>
@@ -11,4 +11,4 @@ const NavLink = (props) => {
     );
 };
 
-export default NavLink;
+export default ButtonLink;
