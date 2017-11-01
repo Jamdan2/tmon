@@ -3,7 +3,7 @@ import {Form, Text} from 'react-form';
 import '../../scss/components/Form.css'
 
 const LoginForm = () => (
-    <div id="loginForm">
+    <div id="loginForm" className="form">
         <Form>
             { formApi => (
                 <form onSubmit={formApi.submitForm}>

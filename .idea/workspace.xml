@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5570fa22-2cea-46b6-98fd-cad50a99621d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/scss/pages/WelcomePage.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/js/pages/WelcomePage.js" afterPath="$PROJECT_DIR$/src/app/js/pages/WelcomePage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/js/components/LoginForm.js" afterPath="$PROJECT_DIR$/src/app/js/components/LoginForm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/scss/pages/WelcomePage.scss" afterPath="$PROJECT_DIR$/src/app/scss/pages/WelcomePage.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,21 +19,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="WelcomePage.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WelcomePage.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/scss/pages/WelcomePage.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            <state relative-caret-position="400">
+              <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WelcomePage.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="WelcomePage.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/js/pages/WelcomePage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+            <state relative-caret-position="360">
+              <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -54,8 +54,8 @@
       <file leaf-file-name="LoginForm.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/js/components/LoginForm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="920">
-              <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+            <state relative-caret-position="840">
+              <caret line="21" column="51" lean-forward="true" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -145,9 +145,9 @@
         <option value="$PROJECT_DIR$/src/app/js/components/LoginFormContainer.js" />
         <option value="$PROJECT_DIR$/src/app/js/components/ButtonLink.js" />
         <option value="$PROJECT_DIR$/src/app/scss/components/Form.scss" />
-        <option value="$PROJECT_DIR$/src/app/js/components/LoginForm.js" />
         <option value="$PROJECT_DIR$/src/app/scss/App.scss" />
         <option value="$PROJECT_DIR$/src/app/js/pages/WelcomePage.js" />
+        <option value="$PROJECT_DIR$/src/app/js/components/LoginForm.js" />
         <option value="$PROJECT_DIR$/src/app/scss/pages/WelcomePage.scss" />
       </list>
     </option>
@@ -675,11 +675,18 @@
       <option name="project" value="LOCAL" />
       <updated>1509512184728</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Position login form correctly">
+      <created>1509552728981</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1509552728981</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130260000" />
+    <option name="totallyTimeSpent" value="131225000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -780,7 +787,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
-    <MESSAGE value="Clear welcome page of impurities" />
     <MESSAGE value="Get rid of useless NavBar container" />
     <MESSAGE value="Add header to welcome page" />
     <MESSAGE value="Set up sass" />
@@ -805,7 +811,8 @@
     <MESSAGE value="Clean some stuff up" />
     <MESSAGE value="Delete poorly structured login form" />
     <MESSAGE value="Style all forms" />
-    <option name="LAST_COMMIT_MESSAGE" value="Style all forms" />
+    <MESSAGE value="Position login form correctly" />
+    <option name="LAST_COMMIT_MESSAGE" value="Position login form correctly" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1042,27 +1049,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/js/components/LoginForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/scss/App.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/js/pages/WelcomePage.js">
+    <entry file="file://$PROJECT_DIR$/src/app/js/components/LoginForm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        <state relative-caret-position="840">
+          <caret line="21" column="51" lean-forward="true" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -1071,9 +1069,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/scss/pages/WelcomePage.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        <state relative-caret-position="400">
+          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/js/pages/WelcomePage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
