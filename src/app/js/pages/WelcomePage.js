@@ -2,6 +2,7 @@ import React from 'react';
 import WelcomeHeader from "../components/WelcomeHeader";
 import NavBar from "../components/NavBar";
 import LoginForm from "../components/LoginForm";
+import '../../scss/pages/WelcomePage.css'
 
 const WelcomePage = () => {
     return (
