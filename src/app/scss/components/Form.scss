@@ -1,0 +1,30 @@
+#loginForm {
+  border: 1px solid gray; //temp
+  background-color: white;
+  width: 10cm;
+  max-width: 97%;
+  padding: 5mm;
+
+  form {
+    .content {
+      margin: 3mm 0;
+
+      button {
+        margin-right: 3mm;
+      }
+    }
+
+    .header {
+      @extend .content;
+
+      h1 {
+        color: dimgray;
+      }
+    }
+
+    input{
+      width: 100%;
+      box-sizing: border-box;
+    }
+  }
+}
