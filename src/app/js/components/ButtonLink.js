@@ -11,4 +11,8 @@ const ButtonLink = (props) => {
     );
 };
 
+ButtonLink.propTypes = {
+    to: PropTypes.string
+};
+
 export default ButtonLink;
