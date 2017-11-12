@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from "prop-types"
 import '../../scss/components/WelcomeHeader.css'
 
 const WelcomeHeader = (props) => {
@@ -14,6 +15,11 @@ const WelcomeHeader = (props) => {
             </div>
         </div>
     )
+};
+
+WelcomeHeader.propTypes = {
+    title: PropTypes.string,
+    subtitle: PropTypes.string
 };
 
 export default WelcomeHeader;
