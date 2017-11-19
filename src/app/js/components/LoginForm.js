@@ -1,9 +1,10 @@
 import React from 'react';
 import {Form, Text} from 'react-form';
+import PropTypes from "prop-types"
 import '../../scss/components/Form.css'
 
-const LoginForm = () => (
-    <div id="loginForm" className="form">
+const LoginForm = (props) => (
+    <div id="loginForm" className="form" style={{margin: "auto"}}>
         <Form>
             { formApi => (
                 <form onSubmit={formApi.submitForm}>
@@ -20,12 +21,16 @@ const LoginForm = () => (
                     </div>
                     <div className="content">
                         <button type="submit">Submit</button>
-                        <button>Cancel</button>
+                        <button onClick={props.cancelButtonOnClick}>Cancel</button>
                     </div>
                 </form>
             )}
         </Form>
     </div>
 );
+
+LoginForm.propTypes = {
+    cancelButtonOnClick: PropTypes.func
+};
 
 export default LoginForm;
