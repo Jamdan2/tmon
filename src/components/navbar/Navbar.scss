@@ -1,5 +1,6 @@
-@import "../../scss/vars.scss";
-#navBar {
+@import "../../index.scss";
+
+.Navbar {
   background: whitesmoke;
   width: 100%;
   height: $navbar-height;
@@ -8,7 +9,7 @@
   list-style-type: none;
   overflow: hidden;
 
-  .childContainer{
+  .container{
     @include vertical-align();
     float: right;
 
@@ -34,4 +35,3 @@
     }
   }
 }
-

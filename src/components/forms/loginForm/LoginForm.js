@@ -1,19 +1,19 @@
 import React from 'react';
 import {Form, Text} from 'react-form';
-import PropTypes from "prop-types"
-import '../../scss/components/Form.css'
+import PropTypes from 'prop-types';
+import '../Form.css';
 
 const LoginForm = (props) => (
-    <div id="loginForm" className="form" style={{margin: "auto"}}>
-        <Form>
-            { formApi => (
+    <div className="LoginForm form">
+        <Form onSubmit={props.onSubmit}>
+            {formApi => (
                 <form onSubmit={formApi.submitForm}>
                     <div className="header">
                         <h1>Login</h1>
                     </div>
                     <div className="content">
                         <label>Username</label>
-                        <Text field="username"/>
+                        <Text field="username" spellcheck="false"/>
                     </div>
                     <div className="content">
                         <label>Password</label>
@@ -21,7 +21,7 @@ const LoginForm = (props) => (
                     </div>
                     <div className="content">
                         <button type="submit">Submit</button>
-                        <button onClick={props.cancelButtonOnClick}>Cancel</button>
+                        <button onClick={props.onCancel}>Cancel</button>
                     </div>
                 </form>
             )}
@@ -30,7 +30,8 @@ const LoginForm = (props) => (
 );
 
 LoginForm.propTypes = {
-    cancelButtonOnClick: PropTypes.func
+    onSubmit: PropTypes.func,
+    onCancel: PropTypes.func
 };
 
 export default LoginForm;

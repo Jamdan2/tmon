@@ -1,4 +1,4 @@
-@import "../vars.scss";
+@import "../../../utils/utils.scss";
 
 .Modal {
   position: fixed;
@@ -9,10 +9,18 @@
   height: 100%;
   z-index: 1;
   background: rgba(0, 0, 0, 0.6);
+
+  .form {
+    margin: auto;
+  }
 }
 
-.center {
-  margin: auto;
+.open {
+  display: inline-block;
+}
+
+.closed {
+  display: none;
 }
 
 .animate {
